@@ -1,7 +1,5 @@
 @media(max-width:991px) {
-    .navbar-nav {
-        display: contents;
-    }
+
 
     /* global */
     h1 {
@@ -22,6 +20,24 @@
 
     /* ends */
 
+    .navbar-nav {
+        display: contents;
+    }
+
+    .herowd {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .hero_image {
+        margin-bottom: 20px;
+    }
+
+    .discover {
+        background-position: bottom right;
+        background-size: 36%;
+    }
+
     .card {
         height: 360px;
     }
@@ -31,7 +47,7 @@
         background-size: 45%;
     }
 
-    .how{
+    .how {
         padding: 40px 15px;
     }
 
@@ -39,12 +55,17 @@
         width: 100%;
     }
 
-    .fees{
+    .fees {
         padding: 40px 15px;
     }
 
-    .feature{
+    .feature {
         padding: 40px 15px;
+    }
+
+
+    .when_use {
+        padding-top: 30px;
     }
 
 }
