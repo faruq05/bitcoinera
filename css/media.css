@@ -1,14 +1,14 @@
-@media(max-width:991px){
-    .herowd{
+@media(max-width:991px) {
+    .herowd {
         width: 100%;
     }
 
-    .herorow{
-        display: block;
+    .navbar-nav {
+        display: contents;
     }
-} 
+}
 
-@media(max-width:768px) {
+@media(max-width:767px) {
 
     /* global */
     h1 {
@@ -29,9 +29,14 @@
 
     /* ends */
 
-    .herowd{
+    .navbar-nav {
+        display: none;
+    }
+
+    .herowd {
         width: 100%;
     }
+
     .hero_title h2 {
         font-size: 26px;
     }
@@ -194,11 +199,12 @@
         padding: 0;
         margin-bottom: 5px;
     }
-    
-    .footer_logo{
+
+    .footer_logo {
         margin-bottom: 10px;
     }
 }
+
 @media(max-width:425px) {
 
     /* global */
@@ -381,8 +387,8 @@
         padding: 0;
         margin-bottom: 5px;
     }
-    
-    .footer_logo{
+
+    .footer_logo {
         margin-bottom: 10px;
     }
 }
@@ -569,8 +575,8 @@
         padding: 0;
         margin-bottom: 5px;
     }
-    
-    .footer_logo{
+
+    .footer_logo {
         margin-bottom: 10px;
     }
 }
