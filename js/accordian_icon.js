@@ -1,31 +1,31 @@
 $("#headingOne").click(function () {
-    $(".rotate").toggleClass("rotated");
+    $(".rotate1").toggleClass("rotated");
 });
 
 $("#headingTwo").click(function () {
-    $(".rotate").toggleClass("rotated");
+    $(".rotate2").toggleClass("rotated");
 });
 
 $("#headingThree").click(function () {
-    $(".rotate").toggleClass("rotated");
+    $(".rotate3").toggleClass("rotated");
 });
 
 $("#headingFour").click(function () {
-    $(".rotate").toggleClass("rotated");
+    $(".rotate4").toggleClass("rotated");
 });
 
 $("#headingFive").click(function () {
-    $(".rotate").toggleClass("rotated");
+    $(".rotate5").toggleClass("rotated");
 });
 
 $("#headingSix").click(function () {
-    $(".rotate").toggleClass("rotated");
+    $(".rotate6").toggleClass("rotated");
 });
 
 $("#headingSeven").click(function () {
-    $(".rotate").toggleClass("rotated");
+    $(".rotate7").toggleClass("rotated");
 });
 
 $("#headingEight").click(function () {
-    $(".rotate").toggleClass("rotated");
+    $(".rotate8").toggleClass("rotated");
 });
