@@ -83,16 +83,15 @@
                                 pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
                                 required>
                             <!-- <label for="phone">Phone</label> -->
-                            <input type="tel" class="form-control" id="number" placeholder="Phone Number">
                             <input type="tel" class="form-control" id="phone" value="+964"
                                 onkeyup="this.value=this.value.replace(/[^0-9]$/g,'');" minlength="7" maxlength="13"
                                 required>
                             <div class="learn_terms">
-                                <a href="#" class="btn btn-learn" type="submit">
-                                    <div class="adjbtn">
+                                <button href="#" class="btn btn-learn" type="submit">
+                                    <span class="adjbtn">
                                         Learn More<i class="fa-solid fa-angles-right button_arrow"></i>
-                                    </div>
-                                </a>
+                                    </span>
+                                </button>
                                 <h5>By entering your personal details here and clicking the LEARN MORE button you
                                     agree and accept the Website <a href="privacy-policy.html" target="_blank">Privacy
                                         Policy</a>and <a href="terms-conditions.html" target="_blank">Terms
@@ -101,7 +100,7 @@
                                     services as provided in the Website privacy policy.</h5>
                             </div>
 
-                        </form>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -662,7 +661,7 @@
                                         role="button">
                                         What Is Bitcoin Era and How Does It Operate?
                                         <span class="accordian_icon">
-                                            <i class="fa-solid fa-sort-down rotate"></i>
+                                            <i class="fa-solid fa-sort-down  rotate1 downicon downicon"></i>
                                         </span>
                                     </span>
                                 </h2>
@@ -684,7 +683,7 @@
                                         aria-controls="collapseTwo" role="button">
                                         Is Bitcoin Era Free to Use?
                                         <span class="accordian_icon">
-                                            <i class="fa-solid fa-sort-down rotate"></i>
+                                            <i class="fa-solid fa-sort-down  rotate2 downicon downicon"></i>
                                         </span>
                                     </span>
                                 </h2>
@@ -704,7 +703,7 @@
                                         aria-controls="collapseThree" role="button">
                                         Is a Bitcoin Era App Available?
                                         <span class="accordian_icon">
-                                            <i class="fa-solid fa-sort-down rotate"></i>
+                                            <i class="fa-solid fa-sort-down  rotate3 downicon"></i>
                                         </span>
                                     </span>
                                 </h2>
@@ -725,7 +724,7 @@
                                         aria-controls="collapseFour" role="button">
                                         Where Can You Get Bitcoin Era?
                                         <span class="accordian_icon">
-                                            <i class="fa-solid fa-sort-down rotate"></i>
+                                            <i class="fa-solid fa-sort-down  rotate4 downicon"></i>
                                         </span>
                                     </span>
                                 </h2>
@@ -748,7 +747,7 @@
                                         aria-controls="collapseFive" role="button">
                                         Is Elon Musk or Any Other Company a Bitcoin User?
                                         <span class="accordian_icon">
-                                            <i class="fa-solid fa-sort-down rotate"></i>
+                                            <i class="fa-solid fa-sort-down  rotate5 downicon"></i>
                                         </span>
                                     </span>
                                 </h2>
@@ -776,7 +775,7 @@
                                         aria-controls="collapseSix" role="button">
                                         IS THE TRADING PLATFORM REPUTABLE AND TRUSTWORTHY?
                                         <span class="accordian_icon">
-                                            <i class="fa-solid fa-sort-down rotate"></i>
+                                            <i class="fa-solid fa-sort-down  rotate6 downicon"></i>
                                         </span>
                                     </span>
                                 </h2>
@@ -798,7 +797,7 @@
                                         aria-controls="collapseSeven" role="button">
                                         HOW DO YOU DELETE YOUR BITCOIN ERA LOGIN DETAILS AND ACCOUNT?
                                         <span class="accordian_icon">
-                                            <i class="fa-solid fa-sort-down rotate"></i>
+                                            <i class="fa-solid fa-sort-down  rotate7 downicon"></i>
                                         </span>
                                     </span>
                                 </h2>
@@ -821,7 +820,7 @@
                                         aria-controls="collapseEight" role="button">
                                         CAN YOU USE THE BITCOIN ERA TO OPEN BOTH LONG AND SHORT POSITIONS?
                                         <span class="accordian_icon">
-                                            <i class="fa-solid fa-sort-down rotate"></i>
+                                            <i class="fa-solid fa-sort-down  rotate8 downicon"></i>
                                         </span>
                                     </span>
                                 </h2>
@@ -918,6 +917,7 @@
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
         crossorigin="anonymous"></script>
     <script src="js/intlTelInput.min.js"></script>
+    <script src="js/accordian_icon.js"></script>
     <script>
         var input = document.querySelector("#phone");
         window.intlTelInput(input, ({

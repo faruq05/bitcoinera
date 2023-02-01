@@ -242,6 +242,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
+    letter-spacing: 2px;
 }
 
 .hero_form form {
@@ -529,17 +530,15 @@ p {
     font-size: 22px;
 }
 
-.rotate {
-    -moz-transition: all .2s linear;
-    -webkit-transition: all .2s linear;
-    transition: all .2s linear;
+.downicon{
+    transform: rotate(0deg);
+    transition: transform 0.5s;
 }
 
-.rotate.down {
-    -moz-transform: rotate(90deg);
-    -webkit-transform: rotate(90deg);
+.rotated {
     transform: rotate(180deg);
-}
+  }
+
 
 /* FAQ ends */
 
