@@ -1,197 +1,52 @@
 @media(max-width:991px) {
-  /* global */
-  h1 {
-    font-size: 36px;
-}
+    .navbar-nav {
+        display: contents;
+    }
 
-h2 {
-    font-size: 28px;
-}
+    /* global */
+    h1 {
+        font-size: 36px;
+    }
 
-p {
-    font-size: 16px;
-}
+    h2 {
+        font-size: 28px;
+    }
 
-.btn {
-    font-size: 20px;
-}
+    p {
+        font-size: 16px;
+    }
 
-/* ends */
+    .btn {
+        font-size: 20px;
+    }
 
-.navbar-nav {
-    display: none;
-}
+    /* ends */
 
-.herowd {
-    width: 100%;
-}
+    .card {
+        height: 360px;
+    }
 
-.hero_title h2 {
-    font-size: 26px;
-}
+    .trading {
+        padding: 40px 15px;
+        background-size: 45%;
+    }
 
-.hero_form p {
-    font-size: 26px;
-    letter-spacing: 2px;
-}
+    .how{
+        padding: 40px 15px;
+    }
 
-.hero_image {
-    margin-bottom: 16px;
-}
+    .how_content {
+        width: 100%;
+    }
 
-.discover_content h2 {
-    text-align: center;
-}
+    .fees{
+        padding: 40px 15px;
+    }
 
-.discover {
-    background-position: bottom right;
-    background-size: 40%;
-    padding: 30px 15px 280px 15px
-}
+    .feature{
+        padding: 40px 15px;
+    }
 
-.about {
-    background: url(../images/half-2.webp);
-    background-position: bottom center;
-    background-repeat: no-repeat;
-    background-size: 39%;
-    padding: 30px 15px 150px 15px;
-}
-
-.about_era {
-    width: 100%;
-}
-
-.about_era h2 {
-    text-align: center;
-}
-
-.benefits_content h2 {
-    font-size: 28px;
-    text-align: center;
-}
-
-.benefits {
-    padding: 60px 15px;
-}
-
-.card {
-    height: auto;
-    padding: 20px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.trade_content {
-    width: 100%;
-}
-
-.how {
-    padding: 30px 15px;
-}
-
-.how_content {
-    width: 100%;
-}
-
-.trading {
-    padding: 30px 15px 205px 15px;
-    background-size: 53%;
-    background-position: bottom center;
-}
-
-.tradeh2 {
-    text-align: center;
-}
-
-.fees {
-    padding: 30px 15px;
-}
-
-.tdfees {
-    width: 100%;
-}
-
-.trading_fees {
-    width: 100%;
-}
-
-.btn-discover {
-    width: 80%;
-}
-
-.ftcard h3 {
-    font-size: 18px;
-}
-
-.features {
-    padding: 30px 15px;
-}
-
-.btn-features {
-    width: 80%;
-}
-
-.btn-adv {
-    width: 80%;
-    font-size: 17px !important;
-}
-
-.when_use {
-    padding-top: 30px;
-}
-
-.tips_text {
-    width: 100%;
-}
-
-.final_content h2 {
-    font-size: 30px;
-}
-
-
-.final_content h3 {
-    text-transform: inherit;
-    font-weight: 400;
-    line-height: 30px;
-    margin-bottom: 5px;
-    font-size: 18px;
-}
-
-.final_content {
-    width: 100%;
-}
-
-
-.final {
-    padding: 30px 15px;
-}
-
-.card-acc {
-    font-size: 18px !important;
-    padding: 15px !important;
-}
-
-.faq {
-    padding: 30px 15px;
-}
-
-.footer_head {
-    display: block;
-}
-
-.footer_nav {
-    display: block;
-}
-
-.footer_nav li a {
-    font-size: 16px;
-    padding: 0;
-    margin-bottom: 5px;
-}
-
-.footer_logo {
-    margin-bottom: 10px;
-}
 }
 
 @media(max-width:768px) {
@@ -254,9 +109,7 @@ p {
         padding: 30px 15px 150px 15px;
     }
 
-    .about_era {
-        width: 100%;
-    }
+
 
     .about_era h2 {
         text-align: center;
