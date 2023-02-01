@@ -1,3 +1,13 @@
+@media(max-width:1109px) {
+    .btn-discover {
+        width: 31%;
+    }
+
+    .btn-features {
+        width: 50%;
+    }
+}
+
 @media(max-width:991px) {
 
 
@@ -51,7 +61,7 @@
     }
 
     .card {
-        height: 360px;
+        height: 440px;
     }
 
     .trading {
@@ -67,6 +77,11 @@
         width: 100%;
     }
 
+    .benefits_content h2 {
+        font-size: 30px;
+    }
+
+
     .fees {
         padding: 40px 15px;
     }
@@ -75,11 +90,26 @@
         padding: 40px 15px;
     }
 
+    .btn-features {
+        width: 45%;
+    }
 
     .when_use {
         padding-top: 30px;
     }
 
+    .btn-adv {
+        width: 60%;
+    }
+
+    .btn-discover {
+        width: 40%;
+    }
+
+    .footer_nav li a {
+        font-size: 16px;
+        padding: 0px 10px;
+    }
 }
 
 @media(max-width:768px) {
