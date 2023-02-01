@@ -437,3 +437,33 @@ p {
     margin: 0;
     margin-bottom: 48px;
 }
+/* features ends */
+
+/* final words starts */
+.final{
+    background: url(../images/what-bg.webp);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.final_content{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.final_content h2{
+    color: var(--cs-white);
+}
+
+.final_content h3{
+    text-transform: inherit;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 0px;
+}
+
+.final_content p{
+    color: var(--cs-white);
+    text-align: left;
+}
