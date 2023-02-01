@@ -27,6 +27,7 @@ a {
     --cs-black: #000;
     --cs-card: #322b7c;
     --cs-divbg: #ecebf1;
+    --cs-footer:#411f64;
 }
 
 .container {
@@ -68,7 +69,7 @@ p {
     padding: 15px 20px;
     background-color: var(--cs-subpr);
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
     text-align: center;
     width: 90%;
     margin-bottom: 0px !important;
@@ -90,7 +91,7 @@ p {
     padding: 60px 0px;
 }
 
-.c-pt-60{
+.c-pt-60 {
     padding-top: 60px;
 }
 
@@ -153,6 +154,7 @@ p {
     bottom: -8px;
     transform: translateX(-50%);
 }
+
 /* ends */
 
 /* global ends */
@@ -207,6 +209,7 @@ p {
     background-repeat: no-repeat;
     background-position: 50%;
     margin-bottom: 380px;
+    padding-bottom: 100px;
 }
 
 .hero .container {
@@ -389,7 +392,7 @@ p {
     padding: 12px 0px;
 }
 
-.btn-discover{
+.btn-discover {
     width: 27%;
     margin: auto;
     margin-top: 20px;
@@ -399,71 +402,192 @@ p {
 
 
 /* features starts */
-.fc2 h3{
+.fc2 h3 {
     background-color: var(--cs-card);
 }
 
-.fc2border::after{
+.fc2border::after {
     background-color: var(--cs-card);
 }
 
-.fc3 h3{
+.fc3 h3 {
     background-color: var(--cs-subpr);
 }
 
-.fc3border::after{
+.fc3border::after {
     background-color: var(--cs-subpr);
 }
 
-.btn-features{
+.btn-features {
     width: 40%;
     margin: auto;
     margin-top: 20px;
 }
 
-.btn-adv{
-    width: 60%;
+.btn-adv {
+    width: 53%;
     margin: auto;
     margin-top: 20px;
 }
 
-.tips_text{
+.tips_text {
     width: 80%;
     margin: auto;
     margin-bottom: 48px;
 }
 
-.when_use h2{
+.when_use h2 {
     margin: 0;
     margin-bottom: 48px;
 }
+
 /* features ends */
 
 /* final words starts */
-.final{
+.final {
     background: url(../images/what-bg.webp);
     background-position: top center;
     background-repeat: no-repeat;
 }
 
-.final_content{
+.final_content {
     width: 90%;
     margin: auto;
     text-align: center;
 }
 
-.final_content h2{
+.final_content h2 {
     color: var(--cs-white);
 }
 
-.final_content h3{
+.final_content h3 {
     text-transform: inherit;
     font-weight: 400;
     line-height: 35px;
     margin-bottom: 0px;
 }
 
-.final_content p{
+.final_content p {
     color: var(--cs-white);
     text-align: left;
+}
+
+/* final words  end  */
+
+/* FAQ starts */
+.card-acc {
+    background-color: #7b3dbb;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: 800;
+    color: #fff;
+    position: relative;
+    padding: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: none;
+}
+
+.card-acc:hover{
+    box-shadow: none;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.card-header {
+    background-color: transparent;
+}
+
+.card-header:first-child {
+    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.card-body {
+    padding: 20px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.accordian_icon {
+
+    border-left: 2px solid #fff;
+
+    padding: 10px 0px 10px 20px;
+
+    font-size: 22px;
+}
+
+.rotate {
+    -moz-transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.rotate.down {
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(180deg);
+}
+/* FAQ ends */
+
+/* footer starts */
+.footer{
+    background-color: var(--cs-footer);
+    padding-top: 30px;
+}
+
+.footer_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_nav{
+    display: flex;
+}
+
+.footer_nav li{
+    list-style: none;
+}
+
+.footer_nav li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--cs-white);
+    padding: 0px 15px;
+}
+
+.footer_content{
+    margin-top: 24px;
+}
+
+.footer_content h5{
+    color: var(--cs-white);
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.footer_content p{
+    color: var(--cs-white);
+    font-size: 16px;
+}
+
+.cc{
+    padding: 15px 0px;
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+}
+
+.cc p{
+    color: var(--cs-white);
 }
