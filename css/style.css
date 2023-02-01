@@ -27,7 +27,7 @@ a {
     --cs-black: #000;
     --cs-card: #322b7c;
     --cs-divbg: #ecebf1;
-    --cs-footer:#411f64;
+    --cs-footer: #411f64;
 }
 
 .container {
@@ -492,7 +492,7 @@ p {
     box-shadow: none;
 }
 
-.card-acc:hover{
+.card-acc:hover {
     box-shadow: none;
 }
 
@@ -537,57 +537,78 @@ p {
     -webkit-transform: rotate(90deg);
     transform: rotate(180deg);
 }
+
 /* FAQ ends */
 
 /* footer starts */
-.footer{
+.footer {
     background-color: var(--cs-footer);
     padding-top: 30px;
 }
 
-.footer_head{
+.footer_head {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.footer_nav{
+.footer_nav {
     display: flex;
 }
 
-.footer_nav li{
+.footer_nav li {
     list-style: none;
 }
 
-.footer_nav li a{
+.footer_nav li a {
     text-decoration: none;
     font-size: 18px;
     color: var(--cs-white);
     padding: 0px 15px;
 }
 
-.footer_content{
+.footer_content {
     margin-top: 24px;
 }
 
-.footer_content h5{
+.footer_content h5 {
     color: var(--cs-white);
     font-size: 16px;
     margin-bottom: 16px;
 }
 
-.footer_content p{
+.footer_content p {
     color: var(--cs-white);
     font-size: 16px;
 }
 
-.cc{
+.cc {
     padding: 15px 0px;
     font-size: 16px;
     margin: 0;
     text-align: center;
 }
 
-.cc p{
+.cc p {
     color: var(--cs-white);
+}
+
+/* Privacy and Terms */
+#privacy h2 {
+    color: #703ddb;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+#privacy strong {
+    color: #703ddb;
+}
+
+#privacy ol {
+    margin-left: 20px;
+}
+
+.fixed_reg{
+    display: none;
 }
