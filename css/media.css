@@ -1,4 +1,15 @@
-@media(max-width:320px) {
+@media(max-width:991px){
+    .herowd{
+        width: 100%;
+    }
+
+    .herorow{
+        display: block;
+    }
+} 
+
+@media(max-width:768px) {
+
     /* global */
     h1 {
         font-size: 36px;
@@ -8,13 +19,205 @@
         font-size: 28px;
     }
 
-    p{
+    p {
         font-size: 16px;
     }
 
     .btn {
         font-size: 20px;
     }
+
+    /* ends */
+
+    .herowd{
+        width: 100%;
+    }
+    .hero_title h2 {
+        font-size: 26px;
+    }
+
+    .hero_form p {
+        font-size: 26px;
+        letter-spacing: 2px;
+    }
+
+    .hero_image {
+        margin-bottom: 16px;
+    }
+
+    .discover_content h2 {
+        text-align: center;
+    }
+
+    .discover {
+        background-position: bottom right;
+        background-size: 40%;
+        padding: 30px 15px 280px 15px
+    }
+
+    .about {
+        background: url(../images/half-2.webp);
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        background-size: 39%;
+        padding: 30px 15px 150px 15px;
+    }
+
+    .about_era {
+        width: 100%;
+    }
+
+    .about_era h2 {
+        text-align: center;
+    }
+
+    .benefits_content h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .benefits {
+        padding: 60px 15px;
+    }
+
+    .card {
+        height: auto;
+        padding: 20px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .trade_content {
+        width: 100%;
+    }
+
+    .how {
+        padding: 30px 15px;
+    }
+
+    .how_content {
+        width: 100%;
+    }
+
+    .trading {
+        padding: 30px 15px 205px 15px;
+        background-size: 53%;
+        background-position: bottom center;
+    }
+
+    .tradeh2 {
+        text-align: center;
+    }
+
+    .fees {
+        padding: 30px 15px;
+    }
+
+    .tdfees {
+        width: 100%;
+    }
+
+    .trading_fees {
+        width: 100%;
+    }
+
+    .btn-discover {
+        width: 80%;
+    }
+
+    .ftcard h3 {
+        font-size: 18px;
+    }
+
+    .features {
+        padding: 30px 15px;
+    }
+
+    .btn-features {
+        width: 80%;
+    }
+
+    .btn-adv {
+        width: 80%;
+        font-size: 17px !important;
+    }
+
+    .when_use {
+        padding-top: 30px;
+    }
+
+    .tips_text {
+        width: 100%;
+    }
+
+    .final_content h2 {
+        font-size: 30px;
+    }
+
+
+    .final_content h3 {
+        text-transform: inherit;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+
+    .final_content {
+        width: 100%;
+    }
+
+
+    .final {
+        padding: 30px 15px;
+    }
+
+    .card-acc {
+        font-size: 18px !important;
+        padding: 15px !important;
+    }
+
+    .faq {
+        padding: 30px 15px;
+    }
+
+    .footer_head {
+        display: block;
+    }
+
+    .footer_nav {
+        display: block;
+    }
+
+    .footer_nav li a {
+        font-size: 16px;
+        padding: 0;
+        margin-bottom: 5px;
+    }
+    
+    .footer_logo{
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:425px) {
+
+    /* global */
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 20px;
+    }
+
     /* ends */
     .hero_title h2 {
         font-size: 26px;
@@ -28,7 +231,195 @@
     .hero_image {
         margin-bottom: 16px;
     }
- 
+
+    .discover_content h2 {
+        text-align: center;
+    }
+
+    .discover {
+        background-position: bottom right;
+        background-size: 72%;
+        padding: 30px 15px 280px 15px
+    }
+
+    .about {
+        background: url(../images/half-2.webp);
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        background-size: 80%;
+        padding: 30px 15px 150px 15px;
+    }
+
+    .about_era {
+        width: 100%;
+    }
+
+    .about_era h2 {
+        text-align: center;
+    }
+
+    .benefits_content h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .benefits {
+        padding: 60px 15px;
+    }
+
+    .card {
+        height: auto;
+        padding: 20px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .trade_content {
+        width: 100%;
+    }
+
+    .how {
+        padding: 30px 15px;
+    }
+
+    .how_content {
+        width: 100%;
+    }
+
+    .trading {
+        padding: 30px 15px 205px 15px;
+        background-size: 96%;
+        background-position: bottom center;
+    }
+
+    .tradeh2 {
+        text-align: center;
+    }
+
+    .fees {
+        padding: 30px 15px;
+    }
+
+    .tdfees {
+        width: 100%;
+    }
+
+    .trading_fees {
+        width: 100%;
+    }
+
+    .btn-discover {
+        width: 100%;
+    }
+
+    .ftcard h3 {
+        font-size: 18px;
+    }
+
+    .features {
+        padding: 30px 15px;
+    }
+
+    .btn-features {
+        width: 100%;
+    }
+
+    .btn-adv {
+        width: 100%;
+        font-size: 17px !important;
+    }
+
+    .when_use {
+        padding-top: 30px;
+    }
+
+    .tips_text {
+        width: 100%;
+    }
+
+    .final_content h2 {
+        font-size: 30px;
+    }
+
+
+    .final_content h3 {
+        text-transform: inherit;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+
+    .final_content {
+        width: 100%;
+    }
+
+
+    .final {
+        padding: 30px 15px;
+    }
+
+    .card-acc {
+        font-size: 18px !important;
+        padding: 15px !important;
+    }
+
+    .faq {
+        padding: 30px 15px;
+    }
+
+    .footer_head {
+        display: block;
+    }
+
+    .footer_nav {
+        display: block;
+    }
+
+    .footer_nav li a {
+        font-size: 16px;
+        padding: 0;
+        margin-bottom: 5px;
+    }
+    
+    .footer_logo{
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width:320px) {
+
+    /* global */
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 20px;
+    }
+
+    /* ends */
+    .hero_title h2 {
+        font-size: 26px;
+    }
+
+    .hero_form p {
+        font-size: 26px;
+        letter-spacing: 2px;
+    }
+
+    .hero_image {
+        margin-bottom: 16px;
+    }
+
     .discover_content h2 {
         text-align: center;
     }
@@ -51,13 +442,118 @@
         width: 100%;
     }
 
-    .about_era h2{
+    .about_era h2 {
         text-align: center;
     }
 
     .benefits_content h2 {
         font-size: 28px;
         text-align: center;
+    }
+
+    .benefits {
+        padding: 60px 15px;
+    }
+
+    .card {
+        height: auto;
+        padding: 20px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .trade_content {
+        width: 100%;
+    }
+
+    .how {
+        padding: 30px 15px;
+    }
+
+    .how_content {
+        width: 100%;
+    }
+
+    .trading {
+        padding: 30px 15px 160px 15px;
+        background-size: 96%;
+        background-position: bottom center;
+    }
+
+    .tradeh2 {
+        text-align: center;
+    }
+
+    .fees {
+        padding: 30px 15px;
+    }
+
+    .tdfees {
+        width: 100%;
+    }
+
+    .trading_fees {
+        width: 100%;
+    }
+
+    .btn-discover {
+        width: 100%;
+    }
+
+    .ftcard h3 {
+        font-size: 18px;
+    }
+
+    .features {
+        padding: 30px 15px;
+    }
+
+    .btn-features {
+        width: 100%;
+    }
+
+    .btn-adv {
+        width: 100%;
+        font-size: 17px !important;
+    }
+
+    .when_use {
+        padding-top: 30px;
+    }
+
+    .tips_text {
+        width: 100%;
+    }
+
+    .final_content h2 {
+        font-size: 30px;
+    }
+
+
+    .final_content h3 {
+        text-transform: inherit;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+
+    .final_content {
+        width: 100%;
+    }
+
+
+    .final {
+        padding: 30px 15px;
+    }
+
+    .card-acc {
+        font-size: 18px !important;
+        padding: 15px !important;
+    }
+
+    .faq {
+        padding: 30px 15px;
     }
 
     .footer_head {
@@ -68,4 +564,13 @@
         display: block;
     }
 
+    .footer_nav li a {
+        font-size: 16px;
+        padding: 0;
+        margin-bottom: 5px;
+    }
+    
+    .footer_logo{
+        margin-bottom: 10px;
+    }
 }

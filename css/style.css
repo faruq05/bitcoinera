@@ -479,7 +479,7 @@ p {
     background-color: #7b3dbb;
     border-radius: 7px;
     font-size: 18px;
-    font-weight: 800;
+    font-weight: 600;
     color: #fff;
     position: relative;
     padding: 20px;
@@ -612,3 +612,4 @@ p {
 .fixed_reg{
     display: none;
 }
+
