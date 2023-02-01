@@ -90,8 +90,12 @@ p {
     padding: 60px 0px;
 }
 
+.c-pt-60{
+    padding-top: 60px;
+}
+
 /* card global */
-.card{
+.card {
     padding: 35px;
     background-color: var(--cs-card);
     border-bottom: 8px solid #7f57ca;
@@ -99,20 +103,57 @@ p {
     margin-bottom: 20px;
 }
 
-.card hr{
+.card hr {
     margin: 0;
     width: 100px;
     height: 2px;
     background-color: var(--cs-accent);
 }
 
-.card p{
+.card p {
     font-size: 16px;
     color: var(--cs-white);
     margin: 0;
     margin: 16px 0px;
 }
+
 /* card global ends */
+
+/* card second global starts */
+.ftcard {
+
+    text-align: center;
+
+    background-color: var(--cs-white);
+
+    box-shadow: 0.3px 4px 29px 0 rgb(50 35 65 / 29%);
+
+    height: 100%;
+    position: relative;
+}
+
+.ftcard h3 {
+    padding: 30px 15px;
+    background-color: var(--cs-primary);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.ftcard_content {
+    padding: 15px;
+}
+
+.ftborder::after {
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: 8px;
+    background-color: var(--cs-primary);
+    left: 50%;
+    bottom: -8px;
+    transform: translateX(-50%);
+}
+/* ends */
 
 /* global ends */
 
@@ -265,37 +306,40 @@ p {
     width: 60%;
     margin-left: auto;
 }
+
 /* discover ends */
 
 /* benefits starts */
-.benefits{
+.benefits {
     background: url(../images/what-bg.webp);
     background-position: center center;
 
 }
 
-.benefits_content{
+.benefits_content {
     text-align: center;
     margin-bottom: 32px;
 }
 
-.benefits_content h2{
+.benefits_content h2 {
     font-size: 52px;
     color: var(--cs-white);
 }
 
-.benefits_content p{
+.benefits_content p {
     color: var(--cs-white);
     width: 80%;
     margin: auto;
 }
+
 /* benefits ends */
 
 /* how starts */
-.how_content{
+.how_content {
     width: 80%;
     margin: auto;
 }
+
 /* how ends */
 
 /* trade starts */
@@ -305,41 +349,42 @@ p {
     background-position: center right;
 }
 
-.trade_content{
+.trade_content {
     width: 60%;
     margin-right: auto;
 }
+
 /* trade ends */
 
 /* fees starts */
-.fees{
+.fees {
     background-color: var(--cs-divbg);
     text-align: center;
 }
 
-.tdfees{
+.tdfees {
     width: 80%;
     margin: auto;
     margin-bottom: 16px;
     text-align: left;
 }
 
-.trading_fees{
+.trading_fees {
     width: 45%;
     margin: auto;
 }
 
-.trading_fees li{
+.trading_fees li {
     display: flex;
     list-style: none;
     justify-content: space-between;
 }
 
-.trading_fees hr{
+.trading_fees hr {
     margin: 0px;
 }
 
-.trading_fees p{
+.trading_fees p {
     margin: 0;
     padding: 12px 0px;
 }
@@ -348,4 +393,47 @@ p {
     width: 27%;
     margin: auto;
     margin-top: 20px;
+}
+
+/* fees ends */
+
+
+/* features starts */
+.fc2 h3{
+    background-color: var(--cs-card);
+}
+
+.fc2border::after{
+    background-color: var(--cs-card);
+}
+
+.fc3 h3{
+    background-color: var(--cs-subpr);
+}
+
+.fc3border::after{
+    background-color: var(--cs-subpr);
+}
+
+.btn-features{
+    width: 40%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.btn-adv{
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.tips_text{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 48px;
+}
+
+.when_use h2{
+    margin: 0;
+    margin-bottom: 48px;
 }
