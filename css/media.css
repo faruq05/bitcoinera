@@ -24,6 +24,10 @@
         display: contents;
     }
 
+    .hero {
+        margin-bottom: 300px;
+    }
+
     .herowd {
         flex: 100%;
         max-width: 100%;
@@ -36,6 +40,14 @@
     .discover {
         background-position: bottom right;
         background-size: 36%;
+        padding: 40px 15px;
+    }
+
+    .about {
+
+        background-position: center left;
+
+        padding: 40px 15px;
     }
 
     .card {
