@@ -1,3 +1,9 @@
+@media(max-width:1500px) {
+    .trading {
+        background-size: 45%;
+    }
+}
+
 @media(max-width:1109px) {
     .btn-discover {
         width: 31%;
@@ -5,6 +11,10 @@
 
     .btn-features {
         width: 50%;
+    }
+
+    .card {
+        height: 325px;
     }
 }
 
@@ -166,10 +176,10 @@
 
     .about {
         background: url(../images/half-2.webp);
-        background-position: bottom center;
+        background-position: left center;
         background-repeat: no-repeat;
         background-size: 39%;
-        padding: 30px 15px 150px 15px;
+        padding: 30px 15px 30px 15px;
     }
 
 
@@ -188,10 +198,10 @@
     }
 
     .card {
-        height: auto;
         padding: 20px;
         background-repeat: no-repeat;
         background-size: cover;
+        height: 420px;
     }
 
     .trade_content {

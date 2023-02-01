@@ -88,7 +88,7 @@ p {
 }
 
 .c-60 {
-    padding: 60px 0px;
+    padding: 60px 20px;
 }
 
 .c-pt-60 {
@@ -100,7 +100,7 @@ p {
     padding: 35px;
     background-color: var(--cs-card);
     border-bottom: 8px solid #7f57ca;
-    height: 270px;
+    height: 300px;
     margin-bottom: 20px;
 }
 
