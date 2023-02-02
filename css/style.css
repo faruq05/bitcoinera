@@ -657,3 +657,47 @@ p {
 .btn-aboutpg-discover{
     width: 60%;
 }
+
+/* contact page  */
+.contactpg_title h1{
+    color: var(--cs-primary);
+    text-align: center;
+}
+
+.contact_form form input {
+    padding: 20px 35px;
+    margin-bottom: 16px;
+    border: 1px solid #b5b5b5;
+    border-radius: 5px;
+}
+
+.contact_form form textarea {
+    padding: 20px 35px;
+    margin-bottom: 16px;
+    border: 1px solid #b5b5b5;
+    border-radius: 5px;
+}
+
+.contact_form form .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #000;
+    outline: 0;
+    box-shadow: none;
+}
+
+.form_send{
+    background-color: var(--cs-accent);
+    color: var(--cs-black);
+}
+
+.contact_form{
+    
+    width: 55%;
+    margin: auto;
+
+}
+
+.contact_submit{
+    width: 111%;
+}
