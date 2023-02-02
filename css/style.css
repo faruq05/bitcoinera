@@ -245,6 +245,14 @@ p {
     letter-spacing: 2px;
 }
 
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #49505775;
+    outline: 0;
+    box-shadow: none;
+}
+
 .hero_form form {
     padding: 20px 20px 50px 20px;
     background-color: var(--cs-accent);
