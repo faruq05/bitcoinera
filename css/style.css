@@ -95,6 +95,10 @@ p {
     padding-top: 60px;
 }
 
+.c-50{
+    padding: 50px 0px;
+}
+
 /* card global */
 .card {
     padding: 35px;
@@ -176,14 +180,16 @@ p {
 
 .btn-login {
     padding: 0;
-    padding: 5px 15px;
+    padding: 5px 20 px;
     font-size: 20px;
     color: var(--cs-black);
     background-color: transparent;
-    border: 2px solid var(--cs-primary);
-    border-radius: 20px;
+    border: 2px solid #a438b4;
+    border-radius: 30px;
     margin-left: 5px;
     box-shadow: none;
+    font-weight: 500;
+    text-transform: inherit;
 }
 
 .btn-login:hover {
@@ -623,3 +629,31 @@ p {
     display: none;
 }
 
+/* about page */
+.aboutpg{
+    background-color: var(--cs-primary);
+}
+
+.aboutpg_title h1{
+    color: var(--cs-white);
+}
+.aboutpg_title h2{
+    font-size: 44px;
+    color: var(--cs-white);
+}
+
+.abh2{
+    font-size: 40px;
+    color: var(--cs-ptext);
+}
+
+.aboutpg_title p{
+    font-size: 22px;
+    width: 80%;
+    margin: auto;
+    color: var(--cs-white);
+}
+
+.btn-aboutpg-discover{
+    width: 60%;
+}

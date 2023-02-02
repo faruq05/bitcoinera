@@ -120,6 +120,29 @@
         font-size: 16px;
         padding: 0px 10px;
     }
+
+    /* aboutpage */
+    .aboutpg_title h2 {
+        font-size: 26px;
+    }
+
+    .aboutpg_title p {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .aboutrow{
+        padding: 30px 0px;
+    }
+
+    .abh2 {
+        font-size: 26px;
+        color: var(--cs-ptext);
+    }
+
+    .btn-aboutpg-discover {
+        width: 80%!important;
+    }
 }
 
 @media(max-width:768px) {
@@ -505,6 +528,12 @@
     }
 }
 
+@media(max-width:375px) {
+    .hero {
+        margin-bottom: 355px;
+    }
+}
+
 @media(max-width:320px) {
 
     /* global */
@@ -690,11 +719,5 @@
 
     .footer_logo {
         margin-bottom: 10px;
-    }
-}
-
-@media(max-width:375px){
-    .hero {
-        margin-bottom: 355px;
     }
 }
