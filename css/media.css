@@ -42,6 +42,7 @@
 
     .navbar-expand-md .navbar-collapse {
         margin-right: 50px;
+        margin: auto;
     }
 
     .hero {
@@ -198,7 +199,7 @@
 
     .navbar-light .navbar-brand {
         color: rgba(0,0,0,.9);
-        width: 50%;
+        width: 40%;
     }
 
     .navbar-nav {
@@ -604,6 +605,10 @@
     }
 
     /* ends */
+
+    .navbar-light .navbar-toggler{
+        padding: 0;
+    }
     .hero_title h2 {
         font-size: 26px;
     }
