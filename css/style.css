@@ -210,6 +210,10 @@ p {
     color: var(--cs-black);
 }
 
+.head_navmenu{
+    margin-right: 0px!important;
+}
+
 /* header ends */
 .hero {
     background: url(../images/main-bg.webp);
