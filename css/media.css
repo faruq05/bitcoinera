@@ -577,6 +577,11 @@
     .footer_logo {
         margin-bottom: 10px;
     }
+
+    .contact_form {
+        width: 100%;
+        margin: auto;
+    }
 }
 
 @media(max-width:375px) {
