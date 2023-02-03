@@ -894,8 +894,11 @@ p {
     background-color: transparent;
 }
 
-.header_row{
-    align-items: center;
-    
+
+.navbar-collapse {
+    margin-right: 150px;
 }
 
+.drop1{
+    display: none;
+}

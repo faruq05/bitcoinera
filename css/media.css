@@ -40,6 +40,10 @@
 
     /* ends */
 
+    .navbar-expand-md .navbar-collapse {
+        margin-right: 50px;
+    }
+
     .hero {
         margin-bottom: 300px;
     }
@@ -179,6 +183,18 @@
     }
 
     /* ends */
+
+    .navbar-collapse {
+        margin-right: 0px;
+    }
+
+    .drop1{
+        display: block;
+    }
+
+    .drop2{
+        display: none;
+    }
 
     .navbar-light .navbar-brand {
         color: rgba(0,0,0,.9);
