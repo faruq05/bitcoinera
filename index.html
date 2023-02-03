@@ -28,12 +28,22 @@
     <!-- header starts -->
     <div class="header">
         <div class="container">
-
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-md navbar-light">
                 <a class="navbar-brand" href="/"><img src="images/logo.png" class="img-fluid" title="BitcoinEra"
                         alt="BitcoinEra"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="toggler-icon">
+                        <div class="toggle">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </span>
+                </button>
 
-                <div class="navbar" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="about.html">About</a>
@@ -919,6 +929,7 @@
         crossorigin="anonymous"></script>
     <script src="js/intlTelInput.min.js"></script>
     <script src="js/accordian_icon.js"></script>
+    <script src="./js/togglebar.js"></script>
     <script>
         var input = document.querySelector("#phone");
         window.intlTelInput(input, ({

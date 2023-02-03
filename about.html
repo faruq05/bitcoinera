@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,6 +10,7 @@
     <!-- Bootstrap CSS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
@@ -26,10 +28,20 @@
     <!-- header starts -->
     <div class="header">
         <div class="container">
-
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-md navbar-light">
                 <a class="navbar-brand" href="/"><img src="images/logo.png" class="img-fluid" title="BitcoinEra"
                         alt="BitcoinEra"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="toggler-icon">
+                        <div class="toggle">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </span>
+                </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
@@ -40,10 +52,44 @@
                             <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn btn-login" href="login.html">login</a>
+                            <a class="nav-link btn btn-login" href="login.html">Login</a>
                         </li>
                     </ul>
                 </div>
+                <li class="nav-item dropdown">
+                    <span class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                        aria-expanded="false"><img src="images/en.png" width="21" height="21" alt="US Flag"> EN <i
+                            class="iti__arrow"></i></span>
+
+                    <ul class="language-list dropdown-menu">
+                        <li><a class="language-list__link dropdown-item" href="../da/index.html"><img
+                                    src="images/da.png" width="21" height="21" alt="Denemark Flag"> DA</a></li>
+                        <li><a class="language-list__link dropdown-item" href="../de/index.html"><img
+                                    src="images/de.png" width="21" height="21" alt="Germany Flag"> DE</a></li>
+                        <li><a class="language-list__link dropdown-item" href="../es/index.html"><img
+                                    src="images/es.png" width="21" height="21" alt="Spain Flag"> ES</a></li>
+                        <li><a class="language-list__link dropdown-item" href="../fr/index.html"><img
+                                    src="images/fr.png" width="21" height="21" alt="French Flag"> FR</a></li>
+                        <li><a class="language-list__link dropdown-item" href="../gr/index.html"><img
+                                    src="images/gr.png" width="21" height="21" alt="Greek Flag"> GR</a></li>
+                        <li><a class="language-list__link dropdown-item" href="../hu/index.html"><img
+                                    src="images/hu.png" width="21" height="21" alt="Hungarian Flag"> HU</a></li>
+                        <li><a class="language-list__link dropdown-item" href="../it/index.html"><img
+                                    src="images/it.png" width="21" height="21" alt="Italy Flag"> IT</a></li>
+                        <li><a class="language-list__link dropdown-item" href="../nl/index.html"><img
+                                    src="images/nl.png" width="21" height="21" alt="Netherland Flag"> NL</a></li>
+                        <li><a class="language-list__link dropdown-item" href="../no/index.html"><img
+                                    src="images/no.png" width="21" height="21" alt="Norwegian Flag"> NO</a></li>
+                        <li><a class="language-list__link dropdown-item" href="../pl/index.html"><img
+                                    src="images/pl.png" width="21" height="21" alt="Poland Flag"> PL</a></li>
+                        <li><a class="language-list__link dropdown-item" href="../ro/index.html"><img
+                                    src="images/ro.png" width="21" height="21" alt="Romanian Flag"> RO</a></li>
+                        <li><a class="language-list__link dropdown-item" href="../sv/index.html"><img
+                                    src="images/sv.png" width="21" height="21" alt="Sweden Flag"> SV</a></li>
+                        <li><a class="language-list__link dropdown-item" href="../tr/index.html"><img
+                                    src="images/tr.png" width="21" height="21" alt="Turkish Flag"> TR</a></li>
+                    </ul>
+                </li>
             </nav>
         </div>
     </div>
@@ -191,6 +237,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
         crossorigin="anonymous"></script>
+    <script src="./js/togglebar.js"></script>
+
 </body>
 
 </html>
